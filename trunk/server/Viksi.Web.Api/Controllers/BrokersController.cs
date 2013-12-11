@@ -39,7 +39,7 @@
                 SessionKey = sessionKey
             };
 
-            return Request.CreateResponse(HttpStatusCode.Created, model);
+            return Request.CreateResponse(HttpStatusCode.Created, loggedIn);
         }
     }
 }
