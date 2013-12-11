@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Viksi.iml" filepath="$PROJECT_DIR$/Viksi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Viksi/Viksi-Viksi.iml" filepath="$PROJECT_DIR$/Viksi/Viksi-Viksi.iml" />
+    </modules>
+  </component>
+</project>
+
