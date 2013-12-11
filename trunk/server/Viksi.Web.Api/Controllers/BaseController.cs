@@ -1,12 +1,12 @@
-﻿using System;
-using System.Net;
-using System.Net.Http;
-using System.Security.Cryptography;
-using System.Web.Http;
-using Viksi.Data;
-
-namespace Viksi.Web.Api.Controllers
+﻿namespace Viksi.Web.Api.Controllers
 {
+    using System;
+    using System.Net;
+    using System.Net.Http;
+    using System.Security.Cryptography;
+    using System.Web.Http;
+    using Viksi.Data;
+
     public class BaseController : ApiController
     {
         protected readonly IViksiData db;

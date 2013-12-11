@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Viksi.Models
+﻿namespace Viksi.Models
 {
+    using System.Collections.Generic;
+
     public class Agency
     {
         public int Id { get; set; }
@@ -19,7 +15,7 @@ namespace Viksi.Models
         public string Email { get; set; }
 
         public virtual ICollection<Broker> Brokers { get; set; }
-        
+
         public Agency()
         {
             this.Phones = new HashSet<Phone>();

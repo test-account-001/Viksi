@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Viksi.Models;
-
-namespace Viksi.Data
+﻿namespace Viksi.Data
 {
+    using System.Data.Entity;
+    using Viksi.Models;
+
     public class ViksiDbContext : DbContext
     {
-        public ViksiDbContext() : base ("ViksiContext")
+        public ViksiDbContext()
+            : base("ViksiContext")
         {
         }
 

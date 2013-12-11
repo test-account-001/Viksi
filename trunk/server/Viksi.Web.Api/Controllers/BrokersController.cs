@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Web.Http;
-using Viksi.Models;
-using Viksi.Web.Api.ViewModels;
-
-namespace Viksi.Web.Api.Controllers
+﻿namespace Viksi.Web.Api.Controllers
 {
+    using System.Linq;
+    using System.Net;
+    using System.Net.Http;
+    using System.Web.Http;
+    using Viksi.Models;
+    using Viksi.Web.Api.ViewModels;
+
     public class BrokersController : BaseController
     {
         [HttpPost]
@@ -42,6 +40,6 @@ namespace Viksi.Web.Api.Controllers
             };
 
             return Request.CreateResponse(HttpStatusCode.Created, model);
-        }        
+        }
     }
 }

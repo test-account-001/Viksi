@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Viksi.Models
+﻿namespace Viksi.Models
 {
+    using System.Collections.Generic;
+
     public class Broker
     {
         public int Id { get; set; }

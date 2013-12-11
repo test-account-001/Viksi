@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Viksi.Models;
-
-namespace Viksi.Data
+﻿namespace Viksi.Data
 {
+    using Viksi.Models;
+
     public interface IViksiData
     {
         IRepository<Broker> Brokers { get; }
