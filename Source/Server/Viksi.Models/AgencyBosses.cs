@@ -9,5 +9,6 @@
         public Broker Boss { get; set; }
 
         public virtual ICollection<Agency> Agencies { get; set; }
+		
     }
 }
