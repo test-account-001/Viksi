@@ -17,5 +17,7 @@
         public virtual Broker Broker { get; set; }
 		
 		public string Test { get; set; }
+		
+		public string test;
     }
 }
