@@ -15,5 +15,7 @@
         public int BrokerId { get; set; }
 
         public virtual Broker Broker { get; set; }
+		
+		public string Test { get; set; }
     }
 }
