@@ -24,6 +24,7 @@
 
         public virtual Agency Agency { get; set; }
 
+		
         public Broker()
         {
             this.Phones = new HashSet<Phone>();
