@@ -14,5 +14,6 @@
         {
             this.SubCategories = new HashSet<SubCategory>();
         }
+		
     }
 }
