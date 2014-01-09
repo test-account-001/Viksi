@@ -27,7 +27,6 @@
         public Broker()
         {
             this.Phones = new HashSet<Phone>();
-        }
-		
+        }		
     }
 }
